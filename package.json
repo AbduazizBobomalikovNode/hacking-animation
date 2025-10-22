@@ -1,0 +1,106 @@
+{
+  "name": "hacking-animation-electron",
+  "version": "1.0.0",
+  "description": "🚀 Modern cyber-themed desktop animation app built with Electron. Features 3D animations, CSS variables color management, and stealth mode. Perfect for developers, hackers, and tech enthusiasts!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never",
+    "build-win": "electron-builder --win",
+    "build-mac": "electron-builder --mac",
+    "build-linux": "electron-builder --linux",
+    "build-all": "electron-builder --win --mac --linux",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0",
+    "clean": "rimraf build dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "electron",
+    "hacking",
+    "animation",
+    "cyber",
+    "desktop-app",
+    "3d-animation",
+    "css-animation",
+    "cyber-security",
+    "hacker",
+    "terminal",
+    "matrix",
+    "neon",
+    "glitch",
+    "cyberpunk",
+    "futuristic",
+    "tech",
+    "programming",
+    "developer",
+    "coder",
+    "javascript",
+    "html5",
+    "css3",
+    "webgl",
+    "interactive",
+    "visual-effects",
+    "ui-animation",
+    "desktop-application",
+    "cross-platform",
+    "open-source"
+  ],
+  "author": "Umar Farooq <umarcbs@example.com> (https://github.com/umarcbs)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4",
+    "rimraf": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umarcbs/hacking-animation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/umarcbs/hacking-animation/issues"
+  },
+  "homepage": "https://github.com/umarcbs/hacking-animation#readme",
+  "build": {
+    "appId": "com.example.hacking-animation",
+    "productName": "Hacking Animation",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "main.js",
+      "dist/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
