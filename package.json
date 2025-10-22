@@ -48,7 +48,7 @@
     "cross-platform",
     "open-source"
   ],
-  "author": "Umar Farooq <umarcbs@example.com> (https://github.com/umarcbs)",
+  "author": "Bobomalikov Abduaziz <azizbek12234@gmail.com> (https://github.com/AbduazizBobomalikovNode)",
   "license": "MIT",
   "devDependencies": {
     "electron": "^27.0.0",

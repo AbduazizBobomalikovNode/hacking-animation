@@ -170,7 +170,7 @@ Bu loyiha MIT litsenziyasi ostida tarqatiladi. Batafsil ma'lumot uchun `LICENSE`
 
 ## 👨‍💻 Muallif
 
-**Umar Farooq** - [@umarcbs](https://github.com/umarcbs)
+**Bobomalikov Abduaziz** - [@AbduazizBobomalikovNode](https://github.com/AbduazizBobomalikovNode)
 
 ## 🙏 Minnatdorchilik
 
